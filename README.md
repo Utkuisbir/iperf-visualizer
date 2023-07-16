@@ -12,8 +12,9 @@ https://learnpython.com/blog/python-requirements-file/
 
 
 How to run:
-1) python3 <iperf3_json_visualizer.py> <jsonfilename.json> <limit_for_Mbit_to_show_on_table>
+1) python3 <iperf3_json_visualizer.py> -i <jsonfilename.json> -w <iwconfigfilename.txt>  -l <limit_for_Mbit_to_show_on_table> 
 * Type the json file name that you want it to be read.
+* Type the iwconfig file name that you want it to be read. (Optional)
 * Type the Mbit limit which speed you run with iperf3
 2) Excel file will be created automatically.
 3) Table will be created automatically.
